@@ -10,7 +10,7 @@ This repository contains the implementation of two matrix multiplication algorit
   - `numpy` (for matrix manipulation)
   - `time` (to measure execution time)
 
-### Para a versão Distribuída (MPI):
+### For the Distributed Version (MPI):
 - Python 3.x
 - Libraries:
   - `mpi4py` (for MPI process communication)
@@ -58,7 +58,7 @@ The sequential algorithm performs the multiplication of two 10,000 x 10,000 matr
 
 3. The execution time will be printed in the terminal, and the result will be saved in the `resultado.txt` file in the current directory.
 
-#### Arquivo de Saída:
+#### Output File:
 - `resultado.txt`: the resulting matrix from the multiplication will be saved in this file.
 
 ---
@@ -96,7 +96,7 @@ The distributed version uses the MPI library to parallelize the matrix multiplic
 
 ## Algorithm Explanation
 
-### 1. **Algoritmo Sequencial**
+### 1. **Sequential Algorithm**
 
 The sequential algorithm performs the multiplication of two 10,000 x 10,000 matrices \( A \) and \( B \) using the traditional method with three nested loops. Each element’s multiplication is executed directly without optimizations. The result is stored in the `resultado.txt` file.
 
